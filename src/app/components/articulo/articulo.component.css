@@ -1,0 +1,28 @@
+.row{
+  display:flex;
+  box-sizing: border-box;
+}
+div{
+  padding: 5px 0;
+}
+.id{
+  display: flex;
+  width: 50%;
+  padding: 0 5px;
+}
+
+.codigo{
+  display: flex;
+  width: 50%;
+  padding: 0 5px;
+}
+.nombre{
+  display: flex;
+  width: 50%;
+  padding: 0 5px;
+}
+.precioUnitario{
+  width: 15%;
+  padding: 0 5px;
+}
+

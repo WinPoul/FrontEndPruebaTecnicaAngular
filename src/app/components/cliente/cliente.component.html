@@ -1,0 +1,16 @@
+<div class="row" >
+  <div class="titulo">
+
+    {{cliente.nombre }}
+  </div>
+  <div class="apellido">
+    {{cliente.apellido }}
+  </div>
+  <div class="botones">
+    <button  (click)="onDelete(cliente)">Eliminar</button>
+  </div>
+  <div class="botones">
+    <button [routerLink]="['/updateCliente/',cliente.id,'update']">Actualizar</button>
+  </div>
+</div>
+

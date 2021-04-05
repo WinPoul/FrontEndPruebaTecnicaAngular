@@ -1,0 +1,16 @@
+<div class="main-container">
+<h1>Lista de Clientes</h1>
+
+  <button routerLink="/addCliente" >Agregar</button>
+
+<app-cliente
+   *ngFor="let cliente of clientes"
+   [cliente]="cliente"
+   (deleteCliente)="deleteCliente($event)">
+</app-cliente>
+<div *ngIf="!clientes ">
+  No hay datos que mostrar
+</div>
+
+</div>
+

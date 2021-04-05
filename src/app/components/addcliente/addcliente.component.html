@@ -1,0 +1,20 @@
+
+<form (ngSubmit)="onSubmit()">
+  <h2>Registrar un nuevo cliente</h2>
+  <div>
+      <label for="">Id</label>
+      <input type="text" name="id" id="" [(ngModel)]="id">
+  </div>
+
+  <div>
+      <label for="">Nombre</label>
+      <input type="text" name="nombre" id="" [(ngModel)]="nombre">
+  </div>
+
+  <div>
+      <label for="">Apellido</label>
+      <input type="text" name="apellido" id="" [(ngModel)]="apellido">
+  </div>
+
+  <input type="submit" value="Crear">
+</form>
